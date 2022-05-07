@@ -1,4 +1,2 @@
 # Buffer-overrun-attack
-Program represantation in memory
-Stack format and usage
-Security issues that exist in current systems
+Program represantation in memory, stack format and usage, security issues that exist in current systems
