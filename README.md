@@ -1,15 +1,20 @@
 # Buffer-overrun-attack
-Program represantation in memory, stack format and usage, security issues that exist in current systems
+Program represantation in memory, stack format and usage, security issues that exist in current systems.
 
-# **GCC-version**<br>
-version 4.9.2
+Tested on `gcc version 4.9.2`
+
 
 # **Articles**<br>
 Illegal buffer overrun attack is shown in articles: Article 2(Illegal Access), Article 4(Data Interference), Article 5(System Interference), Article 8(Computer related fraud).
 
 # **Build**<br>
-1. make all -> create executables
-2. createinput3/6/9 > input3/6/9.txt
-3. hello < input3/6/9.txt -> to run
-4. make clean -> to clean up executables
-
+```sh
+# build the binaries
+$ make all
+# create the respective input
+$ ./createinput{3,6,9} > input{3,6,9}.txt
+# test the explot
+$ ./hello < input{3,6,9}.txt 
+# clean up the executables
+$ make clean
+```
