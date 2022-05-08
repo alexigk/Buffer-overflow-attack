@@ -1,4 +1,4 @@
-# Buffer-overrun-attack
+# Buffer-overflow-attack
 Program represantation in memory, stack format and usage, security issues that exist in current systems.
 
 Tested on `gcc version 4.9.2`
